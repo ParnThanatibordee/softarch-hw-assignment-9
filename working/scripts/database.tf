@@ -53,6 +53,6 @@ resource "kubernetes_service" "database" {
             port         = 27017
         }
 
-        type             = "LoadBalancer"
+        # type             = "LoadBalancer"
     }
 }
